@@ -30,7 +30,6 @@ func loadTemplates() {
 			panic(err)
 		}
 	}
-
 }
 
 func welcomeHandler(writer http.ResponseWriter, request *http.Request) {
